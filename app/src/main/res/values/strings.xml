@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="zardoz_records">Zardoz Records</string>
+    <string name="description">Zardoz is one of Hamburgs leading record shops. Discover recent releases, reissues, and well-preserved second-hand records.</string>
+    <string name="store">Store:</string>
+    <string name="address">Schulterblatt 36, 20357 Hamburg</string>
+    <string name="phone_number">040 / 2803230</string>
+    <string name="opening_hours">Opening hours:</string>
+    <string name="oh_mo_fr">Mo – Fr: 12 – 8 pm</string>
+    <string name="oh_sat">Sat 10 am - 20 pm</string>
+</resources>

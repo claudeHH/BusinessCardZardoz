@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/zardoz_records"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textSizeLarge"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/paddingSmall"/>
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zardoz"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:padding="@dimen/paddingLarge"
+        android:gravity="center_horizontal"
+        android:textStyle="italic"
+        android:text="@string/description"
+        android:textSize="@dimen/textSizeMiddle"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#E0F7FA"
+        android:paddingBottom="@dimen/paddingLarge"
+        android:paddingLeft="@dimen/paddingLarge"
+        android:paddingRight="@dimen/paddingLarge"
+        android:paddingTop="@dimen/paddingSmall">
+
+        <TextView
+            android:id="@+id/store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/store"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/store"
+            android:textSize="@dimen/textSizeSmall"
+            android:text="@string/address" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/address"
+            android:textSize="@dimen/textSizeSmall"
+            android:text="@string/phone_number" />
+
+        <TextView
+            android:id="@+id/openinghours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/opening_hours"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mo-fr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/openinghours"
+            android:textSize="@dimen/textSizeSmall"
+            android:text="@string/oh_mo_fr" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/mo-fr"
+            android:textSize="@dimen/textSizeSmall"
+            android:text="@string/oh_sat" />
+    </RelativeLayout>
+
+</LinearLayout>
